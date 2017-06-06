@@ -1,5 +1,5 @@
 /* <Controlling code for Arduino Controlled Rotary Stewart Platform>
-    Copyright (C) <2014>  <Tomas Korgo>
+    Copyright (C) <2017>  <Jared Korthuis>
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
@@ -24,16 +24,6 @@
 #define CONTROLLER_Y_MAX 2
 
 
-//define values of IrDA codes send from used remote control
-#define MUTE_BUTTON 0x807F906F
-#define STANDBY_ON 0x807F20DF
-#define VOL_UP 0x807F609F
-#define VOL_DOWN 0x807FA05F
-#define DVD 0x807F08F7
-#define TV 0x807F8877
-#define GAME 0x807F48B7
-#define CD 0x807FC837
-
 //define of characters used for control of serial communication ['0'-'8']
 #define SETBACKOFF 48
 #define SETBACKON 49
@@ -44,18 +34,7 @@
 #define SETPOSITIONSINMS 54
 #define SWITCHIRDAOFF 55
 #define GEPOSITION 56
-//defines of LCD pin numbers, most probably they dont have to be changed except of I2C_ADDR which value is neccessary and have to be changed.
-#define I2C_ADDR 0x27
-#define LCD 1
-#define IrDA 1
-#define BACKLIGHT_PIN 3
-#define En 2
-#define Rw 1
-#define Rs 0
-#define D4 4
-#define D5 5
-#define D6 6
-#define D7 7
+
 //MIN and MAX PWM pulse sizes, they can be found in servo documentation
 #define MAX 2800
 #define MIN 450
@@ -70,11 +49,6 @@
 #define pi  3.14159
 #define deg2rad 180/pi
 #define deg30 pi/6
-//variables used for proper show of positions on LCD
-char shown=0, showPos=0, useIrda=0;
-unsigned long time;
-
-//variable to store connected LCD
 
 
 //Array of servo objects
