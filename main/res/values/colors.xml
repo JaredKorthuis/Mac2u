@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffd98e</color>
+    <color name="colorPrimaryDark">#f7b14c</color>
+    <color name="colorAccent">#6b061f</color>
+    <color name="colorAccentPressed">#560a1c</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorGrey">#999999</color>
+    <color name="colorBlack">#050505</color>
+    <color name="colorTest">#f7b14c</color>
+    <color name="colorFaceBookBlue">#4181ff</color>
+    <color name="colorTwitterBlue">#2eaae1</color>
+    <color name="colorFaceBookDarkBlue">#3c5a99</color>
+
+
+
+</resources>
