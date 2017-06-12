@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Mac2Corvallis</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="Password">Password</string>
+    <string name="Username">Username</string>
+    <string name="shoppingcart">ShoppingCart</string>
+    <string name="username">Username</string>
+    <string name="comfort_food_at_its_best">Comfort Food at its best</string>
+    <string name="my_account">My Account</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="communicate">Communicate</string>
+    <string name="CreateAccount">Or</string>
+    <string name="comfortfoodatitsbest">Comfort food at its best</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="login">Login</string>
+    <string name="or">OR</string>
+    <string name="CreateNewAccount">Create New Account</string>
+    <string name="mainmenufoodbutton">MainMenuFoodButton</string>
+</resources>
